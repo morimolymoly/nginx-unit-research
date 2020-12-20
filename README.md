@@ -4,13 +4,14 @@
 
 # Apps
 * `failed` failed because it does not have `application`
-* `success` working good it has `application`
-+ `hack` working good
+* `success` working good because it has `application`
++ `hack` working good because it hacked
 
 # hacks
 It wraps Flask and serve http endpoint.  
 Addition to it, it also need to hack `config.json`(for setting up unitd)  
-Application port is `2222` but you can't use `2222` in your `config.json`.
+Application port is `2222` but you can't use `2222` in your `config.json`.  
+I wonder why such a unbelievable behavior occurs!
 
 # Usage
 ```
